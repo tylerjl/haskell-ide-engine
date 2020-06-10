@@ -4,7 +4,8 @@ packages:
 - hie-plugin-api
 
 extra-deps:
-# - ./submodules/HaRe
+- github: tylerjl/hie-bios
+  commit: adf00f8cf8ab072fa277cf6bca411ecf3e2788ba
 
 - apply-refact-0.7.0.0
 - bytestring-trie-0.2.5.0@rev1
